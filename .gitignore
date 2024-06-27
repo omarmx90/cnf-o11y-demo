@@ -1,0 +1,42 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.backup
+
+# Local .terraform directories
+**/.terraform/*
+
+# Lock files
+*.lock
+
+# Ignore override files as they are usually used to override resources locally and should not be part of version control
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .tfplan files are binary files that are generated when using terraform plan with the -out parameter.
+*.tfplan
+
+# Include .terraformrc and terraform.rc if you have overridden user settings
+terraform.rc
+.terraformrc
+
+# General
+.DS_Store
+Thumbs.db
+
+# Local editor config files
+.vscode/
+.idea/
+*.swp
+*~
