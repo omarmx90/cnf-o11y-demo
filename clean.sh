@@ -32,4 +32,3 @@ kubectl wait --for=condition=available --timeout=60s svc/my-otel-demo-frontendpr
 # Port forward to the frontend service
 echo "Setting up port forwarding on port 8080..."
 kubectl port-forward svc/my-otel-demo-frontendproxy 8080:8080
-
